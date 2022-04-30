@@ -18,13 +18,7 @@ TEST_CASE("Constructors"){
     CHECK_NOTHROW(Game test1{});
     CHECK_NOTHROW(Game test2{});
     CHECK_NOTHROW(Game test3{});
-    // Game check{};
-    // Duke A{check, "daniel"};
-    // Captain B{check, "dani"};
-    // Contessa C{check, "Shay"};
-    //CHECK_NOTHROW(A);
-    // CHECK_NOTHROW(B);
-    // CHECK_NOTHROW(C);
+
   
 }
 
@@ -132,10 +126,7 @@ TEST_CASE("Game Functions"){
    
     vector<string> player_test=game_test.players();
 
-    // for(string name : player_test){
-	// 	cout << name << endl;
-	// }
-
+  
     CHECK_NOTHROW(A.income());
     CHECK_NOTHROW(B.income());
     CHECK_NOTHROW(C.income());
